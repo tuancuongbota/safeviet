@@ -2383,12 +2383,12 @@
         opacity: 1;
     }
     .bota_home_catepr_inner .owl-prev {
-        top: -11%;
+        top: -10%;
         right: 36px;
     }
     .bota_home_catepr_inner .owl-next {
         right: 0px;
-        top: -11%;
+        top: -10%;
     }
     .bota_home_catepr_main > div:nth-child(even) > .bota_home_catepr_right .owl-next{
         right:-290px;
