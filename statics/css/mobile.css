@@ -25,7 +25,7 @@
 .wrap_item_srv .owl-buttons .owl-next{
 	right: 35%
 }
-.v2_bnc_header_top{
+.bota_header_top{
 	padding: 0;
 }
 #fb-root {
@@ -203,14 +203,14 @@ iframe{
 	}
     /*=== End Menu Mobile ===*/
 
-    .v2_bnc_block_title h2, .f-block-title span{
+    .bota_block_title h2, .f-block-title span{
     	font-size: 15px;
     }
-    .v2_bnc_block_item_img {
+    .bota_block_item_img {
 	    height: 200px;
 	    margin: 0 0 10px 0;
 	}
-	#news_filter .form-control,#recruit_filter .form-control,.v2_bnc_select_category_products_page .form-control,#album_filter .form-control,#video_filter .form-control,.f-qa .form-control{
+	#news_filter .form-control,#recruit_filter .form-control,.bota_select_category_products_page .form-control,#album_filter .form-control,#video_filter .form-control,.f-qa .form-control{
 	    margin: 0 0 10px 0;
 	}
 	.slideshow_block_top {
@@ -229,68 +229,68 @@ iframe{
 	    top: -6px;
     	right: -15px;
 	}
-	.v2_bnc_cart_main .miniv2-toolbar-barclick:before {
+	.bota_cart_main .miniv2-toolbar-barclick:before {
     	background: url(../imgs/icon-cart.png) no-repeat scroll 0 0 #283d86;
  }
-	.v2_bnc_cate_search_cart {
+	.bota_cate_search_cart {
 		position: relative;
 	    top: 0px;
 	}
-	.v2_bnc_footer_right_bottom {
+	.bota_footer_right_bottom {
 	    margin: 0 0 10px 0;
 	    padding: 20px 0;
 	}
-	.v2_bnc_footer_left {
+	.bota_footer_left {
 	    border: none;
 	    padding-bottom: 0;
 	}
-	.v2_bnc_footer_right_top {
+	.bota_footer_right_top {
 	    
 	}
-	.v2_bnc_hometab_news_big li.smallother {
+	.bota_hometab_news_big li.smallother {
 	    height: auto;
 	}
-	.v2_bnc_hometab_news_big li.smallother .v2_bnc_hometab_news_big_img {
+	.bota_hometab_news_big li.smallother .bota_hometab_news_big_img {
 	    height: 150px;
 	}
-	.v2_bnc_cart_main .miniv2-toolbar-barclick:before {
+	.bota_cart_main .miniv2-toolbar-barclick:before {
 	    background: url(../imgs/icon-cart.png) no-repeat scroll 0 0 #39b54a;
 	}
-	.v2_bnc_cate_search_cart {
+	.bota_cate_search_cart {
 	    top: 0;
 	    position: static;
 	}
-	.v2_bnc_cate_search_cart_inner,.v2_bnc_cate_search_cart.fixed {
+	.bota_cate_search_cart_inner,.bota_cate_search_cart.fixed {
 	    background: #39b54a;
 	    border-top: 1px solid #39b54a;
 	}
 	.miniv2-toolbar-count {
 	    background: #8BC34A;
 	}
-	.v2_bnc_products_details_zoom_img .f-pr-image-zoom {
+	.bota_products_details_zoom_img .f-pr-image-zoom {
 	    display: table;
 	}
-	.v2_bnc_product_details_img_small {
+	.bota_product_details_img_small {
 	    margin: 0 auto;
 	    display: block;
 	    text-align: center;
 	    float: none;
 	}
-	.v2_bnc_cart_main {
+	.bota_cart_main {
 	        float: right;
 	        position: absolute;
 	        top: -55px;
 	        right: 30px;
 	}
-	.v2_bnc_cart_main .f-miniCart-miniv2 {
+	.bota_cart_main .f-miniCart-miniv2 {
 	    right: 42px !important;
 	    width: 100%;
 	    position: absolute;
 	}
-	.v2_bnc_category_menu_list {
+	.bota_category_menu_list {
 	    display: none !important;
 	}
-	.v2_bnc_left_category_menu:hover .v2_bnc_category_menu_list{
+	.bota_left_category_menu:hover .bota_category_menu_list{
 		display: block !important;
 	}
 	.fluid_container_wrap {
@@ -304,23 +304,23 @@ iframe{
 	}
 } 
 @media only screen and (max-width:767px){
-	.v2_bnc_footer_support {
+	.bota_footer_support {
 		width: 60%;
 	}
-    .v2_bnc_adv_2_first_block h3{
+    .bota_adv_2_first_block h3{
         font-size: 20px;
         padding: 15px 5px 5px 5px;
         margin: 0;
         text-align: center;
     }
-    .v2_bnc_adv_2_second_block h3{
+    .bota_adv_2_second_block h3{
         font-size: 16px;
         padding-left: 15px;
         font-weight: bold;
         margin: 5px 0 0 0;
     }
-    .v2_bnc_adv_2_second_block>div img{display: none;}
-    .v2_bnc_adv_2_second_block>div{padding: 0 15px;}
+    .bota_adv_2_second_block>div img{display: none;}
+    .bota_adv_2_second_block>div{padding: 0 15px;}
     .opacity_menu{width: 40%;top:0;right: 0;z-index: 999;position: fixed;}
 	div#logo img {
     margin: auto;
@@ -329,17 +329,17 @@ iframe{
 	.search-basic{
 		display:none;
 	}
-	.v2_bnc_phone a{
+	.bota_phone a{
 		font-size: 11px;
 		width:  100%;
 	}
-	.v2_bnc_readmore_home {
+	.bota_readmore_home {
     display: none;
 }
-	.v2_bnc_home_catepr_left_img {
+	.bota_home_catepr_left_img {
 	    margin: 10px 0;
 	}
-	.v2_bnc_cate_search_cart_inner .col-xs-3.col-sm-4{
+	.bota_cate_search_cart_inner .col-xs-3.col-sm-4{
 		display: none;
 	}
 	#search-box .search-area {
@@ -367,18 +367,18 @@ iframe{
 
 } 
 @media only screen and (max-width: 480px){
-	.v2_bnc_title_tab_home li {
+	.bota_title_tab_home li {
 	    display: block;
 	    text-align: center;
 	}
-	.v2_bnc_title_tab_home li a {
+	.bota_title_tab_home li a {
 	    padding: 10px 15px;
 	    display: block;
 	}
-	.v2_bnc_home_catepr_tabul.nav-tabs {
+	.bota_home_catepr_tabul.nav-tabs {
 	    display: none;
 	}
-	.v2_bnc_title_main h2 {
+	.bota_title_main h2 {
 	    font-size: 18px;
 	}
 	.carousel-caption h1, .carousel-caption p {
@@ -392,14 +392,14 @@ iframe{
 	    width: 100%;
 	}
 	/*== Pagination ==*/
-	.v2_bnc_pagination_title,.pagination {
+	.bota_pagination_title,.pagination {
 	    text-align: center;
 	}
 	.pagination>li {
 	    display: inline-block;
 	}
 	/*== End Pagination ==*/
-	.v2_bnc_sam_category figure {
+	.bota_sam_category figure {
 	    margin: 0 0 10px 0;
 	}
 	.col {
@@ -410,7 +410,7 @@ iframe{
 	    display: inline-block;
 	    margin:0;
 	}
-	.viewlist .v2_bnc_pr_item_boxdetails, .viewlist .v2_bnc_pr_item_price_main {
+	.viewlist .bota_pr_item_boxdetails, .viewlist .bota_pr_item_price_main {
 	    width: 100%;
 	    float: left;
 	}
@@ -419,27 +419,27 @@ iframe{
 	.subscribe_email_input {
 	    width: 220px;
 	}
-	.v2_bnc_check_order {
+	.bota_check_order {
 	    display:none;
 	}
-	.v2_bnc_login_bar {
+	.bota_login_bar {
 	    margin: 0;
 	    float: none;
 	    text-align: center;
 	}
-	.v2_bnc_language {
+	.bota_language {
 	    display: block;
 	    text-align: center;
 	}
-	.v2_bnc_login_bar {
+	.bota_login_bar {
 	    margin: 0;
 	    float: none;
 	    text-align: center;
 	}
-	.v2_bnc_icon_filter {
+	.bota_icon_filter {
 	    margin: 0 23px;
 	}
-	.viewlist li .v2_bnc_pr_item_img {
+	.viewlist li .bota_pr_item_img {
 	    width: 100%;
 	    float: left;
 	    margin: 0 0 10px;
