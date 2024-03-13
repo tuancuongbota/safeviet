@@ -1,0 +1,28 @@
+/*== Owl Control ==*/
+    .owl-theme .owl-controls .owl-buttons div .fa {
+        color: #bbb;
+        line-height: 23px;
+        transition: all ease .5s;
+    }
+    .owl-theme .owl-controls .owl-buttons div:hover .fa{
+        color:#bb3239;
+    }
+    .owl-theme .owl-controls .owl-buttons div:hover{
+        border-color: #bb3239;
+    }
+    .owl-theme .owl-controls .owl-buttons div {
+        width: 30px;
+        height: 30px;
+        border-radius: 0;
+        line-height: 30px;
+        color: #fff;
+        border: 1px solid #bbb;
+        background: #fff;
+        opacity: 0;
+        position: absolute;
+        transition: all ease .5s;
+    }
+    .owl-item .item {
+        width: inherit !important;
+    }
+/*== End Owl Control ==*/     
