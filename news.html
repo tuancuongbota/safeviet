@@ -1,0 +1,511 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tin tức</title>
+        <link rel="shortcut icon" href="statics/imgs/favionpng.png" />
+        <!-- Reset Css-->
+        <link href="statics/css/reset.css" rel="stylesheet" media="screen">
+        <!-- End Reset Css-->
+
+        <!-- Bootstrap Css -->
+        <link rel="stylesheet" href="statics/plugins/bootstrap/css/bootstrap.min.css">
+        <!-- End Bootstrap Css -->
+
+        <!-- Css -->
+        <link href="statics/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" media="screen">
+        <link href="statics/plugins/owl-carousel/owl.theme.css" rel="stylesheet" media="screen">
+        <link href="statics/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" media="screen">
+        <link href="statics/plugins/camera-slideshow/camera.css?v=1" rel="stylesheet" media="screen">
+        <link href="statics/plugins/wow/animate.css" rel="stylesheet" media="screen">
+        <link href="statics/css/owl-slideshow-main.css?v=1" rel="stylesheet" media="screen">
+        <link href="statics/css/style.css?v=24" rel="stylesheet" media="screen">
+        <link href="statics/css/mobile.css?v=16" rel="stylesheet" media="screen">
+        <!-- End Css -->
+
+        <!-- FontIcon -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
+        <!-- End FontIcon -->
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&amp;subset=vietnamese" rel="stylesheet">
+        <!-- End Google Font -->
+        <!--- Css Validation -->
+        <link href="statics/css/validationEngine.jquery.css" rel="stylesheet">
+        <!--- End Css Validation -->
+
+        <!--- Css Loading -->
+        <link href="statics/plugins/slider-range/jquery.nouislider.min.css" rel="stylesheet">
+        <!--- End Css Loading -->
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+        <script type="text/javascript" src="statics/scripts/jwplayer.js"></script>
+        <script src="statics/plugins/slider-range/jquery.nouislider.all.min.js"></script>
+        <script src="statics/plugins/wow/wow.min_.js"></script>
+        <script src="statics/plugins/owl-carousel/owl.carousel.js"></script>
+        <script type="text/javascript" src="statics/scripts/js_customs.js?v=5"></script>
+        <!-- End JS --> 
+
+        <script>
+            new WOW().init();
+        </script>
+    </head>
+    <body>
+        <h1 style="display: none">CÔNG TY CP KHOA HỌC KỸ THUẬT BẢO HỘ LAO ĐỘNG VIỆT NAM</h1>
+        <header class="bota_header ">
+            <div class="bota_header_top">
+               <div class="container">
+                  <div class="row">
+                     <div class="full-xs col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="bota_language hidden">
+                           <div class="bota_language_drop">Ngôn ngữ <i class="fa fa-angle-down"></i></div>
+                           <ul><input type="hidden" id="langRedirectUrl" value=""></ul>
+                        </div>
+                        <span>
+                           <marquee></marquee>
+                        </span>
+                     </div>
+                     <div class="full-xs col-xs-12 col-sm-8 col-md-8 col-lg-8 hidden-sm hidden-xs">
+                        <div class="bota_check_order hidden">
+                           <a href="product-fastCart-index.html"><i class="fa fa-check-circle-o"></i> Kiểm tra đơn hàng</a>
+                           <div class="bota_check_order_show">
+                              <div id="alert-fast-cart" style="display: none;" class="alert alert-danger alert-dismissible" role="alert"><a type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></a><span id="notify-fast-cart"></span></div>
+                              <form id="fast-cart">
+                                 <p class="bota_check_text">Mã đơn hàng</p>
+                                 <input type="text" id="invoice" class="validate[required]" placeholder="Mã đơn hàng">
+                                 <p class="bota_check_text">Email</p>
+                                 <input type="text" id="email" class="validate[required]" placeholder="Email"><button type="submit" id="send-fast-cart"><i class="fa fa-check"></i> Kiểm tra</button>
+                              </form>
+                           </div>
+                        </div>
+                        <div class="bota_login_register hidden">
+                           <div class="bota_login_account">
+                              <ul class="bota_login_bar">
+                                 <li><a href="user-login.html" rel="nofollow"><i class="fa fa-user"></i> Đăng nhập</a></li>
+                                 <li><a href="user-regis.html" rel="nofollow"><i class="fa fa-user-plus"></i> Đăng ký</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="bota_phone"><a href="tel:02436419962"><i class="fa fa-phone fa-lg"></i> Hotline: 02436419962</a><a class="emails" href="mailto:vietnam@safeviet.com"><i class="fa fa-envelope fa-lg"></i> Email: vietnam@safeviet.com</a><a href="#" class="address"><i class="fa fa-home fa-lg"></i>CÔNG TY CP KHKT BẢO HỘ LAO ĐỘNG VIỆT NAM</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="bota_header_bottom">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                        <section class="button_menu_mobile">
+                           <div id="nav_list"><i class="icon-menu icons"></i></div>
+                        </section>
+                        <nav class="menutop">
+                           <div class="menu-top-custom">
+                              <div class="navbar-collapse pushmenu pushmenu-left">
+                                 <ul class="nav navbar-nav">
+                                    <li class="active"><a class="txt" href="index.html">TRANG CHỦ</a></li>
+                                    <li class="parent">
+                                       <a class="txt" href="info.html">GIỚI THIỆU</a>
+                                       <div class="top-menu-new">
+                                          <ul>
+                                             <li><a class="v2_link_submenu_1" href="info.html" title="Giới thiệu chung">Giới thiệu chung</a></li>
+                                             <li><a class="v2_link_submenu_1" href="" title="Các chi nhánh">Các chi nhánh</a></li>
+                                             <li><a class="v2_link_submenu_1" href="" title="Nhân viên kinh doanh">Nhân viên kinh doanh</a></li>
+                                          </ul>
+                                       </div>
+                                       <span></span>
+                                    </li>
+                                    <li class="parent">
+                                       <a class="txt" href="product.html">SẢN PHẨM</a>
+                                       <div class="top-menu-new">
+                                          <ul>
+                                             <li><a class="v2_link_submenu_1" href="product.html" title="1. TRANG PHỤC BẢO HỘ - ĐỒNG PHỤC - ÁO SỰ KIỆN">1. TRANG PHỤC BẢO HỘ - ĐỒNG PHỤC - ÁO SỰ KIỆN</a></li>
+                                             <li><a class="v2_link_submenu_1" href="product.html" title="2. THIẾT BỊ BẢO VỆ ĐẦU">2. THIẾT BỊ BẢO VỆ ĐẦU</a></li>
+                                             <li><a class="v2_link_submenu_1" href="product.html" title="3. THIẾT BỊ BẢO VỆ ĐÔI TAY">3. THIẾT BỊ BẢO VỆ ĐÔI TAY</a></li>
+                                             <li><a class="v2_link_submenu_1" href="product.html" title="4. THIẾT BỊ BẢO VỆ ĐÔI CHÂN">4. THIẾT BỊ BẢO VỆ ĐÔI CHÂN</a></li>
+                                             <li><a class="v2_link_submenu_1" href="product.html" title="5. THIẾT BỊ PHÒNG CHÁY CHỮA CHÁY">5. THIẾT BỊ PHÒNG CHÁY CHỮA CHÁY</a></li>
+                                             <li><a class="v2_link_submenu_1" href="product.html" title="6. THIẾT BỊ LÀM VIỆC TRÊN CAO">6. THIẾT BỊ LÀM VIỆC TRÊN CAO</a></li>
+                                             <li><a class="v2_link_submenu_1" href="product.html" title="7. THIẾT BỊ CẢNH BÁO AN TOÀN">7. THIẾT BỊ CẢNH BÁO AN TOÀN</a></li>
+                                             <li><a class="v2_link_submenu_1" href="product.html" title="THIẾT BỊ AN TOÀN GIAO THÔNG">THIẾT BỊ AN TOÀN GIAO THÔNG</a></li>
+                                          </ul>
+                                       </div>
+                                       <span></span>
+                                    </li>
+                                    <li class=""><a class="txt" href="news.html">Tin tức</a></li>
+                                    <li class=""><a class="txt" href="recruit.html">Tuyển dụng</a></li>
+                                    <li class=""><a class="txt" href="https://www.youtube.com/channel/UC_OJm_I0l79kGXNEcoFChrg">VIDEO HOẠT ĐỘNG</a></li>
+                                    <li class=""><a class="txt" href="contact.html">LIÊN HỆ</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </nav>
+                        <div id="logo"><a href="" rel="nofollow" class="bota_logo" title="CÔNG TY CP KHOA HỌC KỸ THUẬT BẢO HỘ LAO ĐỘNG VIỆT NAM"><img src="https://cdn-img-v2.webbnc.net/uploadv2/web/12/12815/news/2019/05/24/07/20/1558682406_artboard-4-copy-2.png" width="180" height="80" class="img-responsive" alt="CÔNG TY CP KHOA HỌC KỸ THUẬT BẢO HỘ LAO ĐỘNG VIỆT NAM"></a></div>
+                     </div>
+                     <div class="col-xs-3 col-sm-9 col-md-9 col-lg-9">
+                        <nav class="bota_menu_main hidden-sm hidden-xs">
+                           <div class="v2_menu_top">
+                              <div class="v2_menu_top_name hidden"><span>Danh mục sản phẩm </span></div>
+                              <ul class="v2_menu_top_ul nxtActiveMenu">
+                                 <li class="active"><a class="v2_menu_first_link" href="index.html">TRANG CHỦ</a></li>
+                                 <li class="parent">
+                                    <a class="v2_menu_first_link" href="info.html">GIỚI THIỆU</a>
+                                    <ul class="v2_menu_top_sub">
+                                       <li><a href="info.html" title="">Giới thiệu chung</a></li>
+                                       <li><a href="" title="">Các chi nhánh</a></li>
+                                       <li><a href="" title="">Nhân viên kinh doanh</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="parent">
+                                    <a class="v2_menu_first_link" href="product.html">SẢN PHẨM</a>
+                                    <ul class="v2_menu_top_sub">
+                                       <li><a href="product.html" title="">1. TRANG PHỤC BẢO HỘ - ĐỒNG PHỤC - ÁO SỰ KIỆN</a></li>
+                                       <li><a href="product.html" title="">2. THIẾT BỊ BẢO VỆ ĐẦU</a></li>
+                                       <li><a href="product.html" title="">3. THIẾT BỊ BẢO VỆ ĐÔI TAY</a></li>
+                                       <li><a href="product.html" title="">4. THIẾT BỊ BẢO VỆ ĐÔI CHÂN</a></li>
+                                       <li><a href="product.html" title="">5. THIẾT BỊ PHÒNG CHÁY CHỮA CHÁY</a></li>
+                                       <li><a href="product.html" title="">6. THIẾT BỊ LÀM VIỆC TRÊN CAO</a></li>
+                                       <li><a href="product.html" title="">7. THIẾT BỊ CẢNH BÁO AN TOÀN</a></li>
+                                       <li><a href="product.html" title="">THIẾT BỊ AN TOÀN GIAO THÔNG</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class=""><a class="v2_menu_first_link" href="news.html">Tin tức</a></li>
+                                 <li class=""><a class="v2_menu_first_link" href="recruit.html">Tuyển dụng</a></li>
+                                 <li class=""><a class="v2_menu_first_link" href="https://www.youtube.com/channel/UC_OJm_I0l79kGXNEcoFChrg">VIDEO HOẠT ĐỘNG</a></li>
+                                 <li class=""><a class="v2_menu_first_link" href="contact.html">LIÊN HỆ</a></li>
+                              </ul>
+                           </div>
+                           <script type="text/javascript">function NxtActiveMenu(){ var urlNow=window.location.href; var allA=$('.nxtActiveMenu').find('a'); $.each(allA, function(k, v) { var self=$(this); if(self.attr('href')==urlNow){ $('.nxtActiveMenu').find('li.active').removeClass('active'); self.parents('li').addClass('active'); } }); }; NxtActiveMenu();</script>
+                        </nav>
+                     </div>
+                     <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
+                        <div id="search-box" class="bota_search_main">
+                           <div class="bota_search_main_btn "><i class="fa fa-search"></i></div>
+                           <div class="search search-area">
+                              <div class="input-group bota_search_border">
+                                 <div class="input-group-btn search-basic">
+                                    <select class="form-control" name="BNC_searchCategory">
+                                       <option value="product">Sản phẩm</option>
+                                       <option value="news">Tin tức</option>
+                                       <option value="album">Album</option>
+                                       <option value="video">Video</option>
+                                       <option value="recruit">Tuyển dụng</option>
+                                    </select>
+                                 </div>
+                                 <input type="search" class="form-control search-field" placeholder="Tìm kiếm..." name="BNC_txt_search" id="BNC_txt_search" value="">
+                                 <div class="input-group-btn"> <a href="javascript:void(0);" class="search-button" id="BNC_btn_search">Search</a></div>
+                                 <div class="searchAutoComplete hidden">
+                                    <ul id="resSearch" style="display: none;">
+                                       <li><a href="">sản phẩm a</a></li>
+                                       <li><a href="">sản phẩm b</a></li>
+                                       <li><a href="">sản phẩm c</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="bota_cart_main">
+                           <div class="f-miniCart-miniv2">
+                              <div class="f-miniCart-miniv2-toolbar">
+                                 <div class="miniv2-toolbar-close"><span>×</span></div>
+                                 <div class="miniv2-toolbar-name"><a class="miniv2-toolbar-barclick"><span class="miniv2-toolbar-count">0</span></a></div>
+                              </div>
+                              <div class="wrap_cart">
+                                 <div class="miniCart-top"><span>Giỏ hàng của tôi (0)</span></div>
+                                 <div class="miniCart-body">
+                                    <ul class="miniCartItem">
+                                       <li>
+                                          <center>Hiện chưa có sản phẩm nào trong giỏ hàng của bạn</center>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+          <!-- Breadcrumbs -->
+         <div class="clearfix"></div>
+         <div class="v2_breadcrumb_main">
+            <div class="container">
+               <h1>Tin tức</h1>
+               <ul class="breadcrumb">
+                  <li><a href="index.html">Trang chủ</a></li>
+                  <li><a href="news.html">Tin tức</a></li>
+                  <li><a href="news.html">Tin tức</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- End Breadcrumbs -->
+         <section class="bota_news_page">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 full-xs pull-right">
+                     <div class="bota_title_page">
+                        <h2>
+                           Tin tức                         
+                        </h2>
+                     </div>
+                     <div class="bota_category_page">
+                        <div class="bota_cate_page">
+                           <ul class="bota_cate_page_list row">
+                           </ul>
+                           <div class="clearfix"></div>
+                        </div>
+                     </div>
+                     <div class="bota_news_page_body">
+                        <div class="row">
+                           <form id="news_filter" class="bota_filter_page" method="POST" action="news.html" enctype="multipart/form-data" data-np-autofill-form-type="other" data-np-checked="1" data-np-watching="1">
+                              <div class="col-md-3 col-sm-6 col-xs-6 full-xs">
+                                 <select name="type_filter" class="form-control type_filter">
+                                    <option value="news_latsted"> Tin Mới</option>
+                                    <option value="news_vip"> Tin HOT</option>
+                                    <option value="news_az"> A-Z</option>
+                                 </select>
+                              </div>
+                              <div class="col-md-3 col-sm-6 col-xs-6 full-xs">
+                                 <input type="text" value="" name="name_filter" placeholder="Tiêu đề..." class="form-control form-filter">
+                              </div>
+                              <div class="col-md-3 col-sm-6 col-xs-6 full-xs">
+                                 <select name="limit_filter" class="form-control limit_filter">
+                                    <option value="10">Số bản ghi hiển thị</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                    <option value="25">25</option>
+                                    <option value="50">50</option>
+                                 </select>
+                              </div>
+                              <div class="col-md-3 col-sm-6 col-xs-6 full-xs">
+                                 <a href="javascript:void(0);" class="btn btn-danger" id="submitSearch">Tìm kiếm</a>
+                              </div>
+                           </form>
+                        </div>
+                        <div class="bota_news_page_list">
+                           <article>
+                              <ul class="bota_news_list">
+                                 <div class="row">
+                                    <li class="bota_news_list_item col-md-3 col-sm-4 col-12 ">
+                                       <div class="bota_news_list_img col-md-12"> 
+                                          <a href="news_details.html" class="thumbnail_img" title="TUYỂN DỤNG THÁNG 12/2021"> 
+                                          <img src="https://cdn-img-v2.webbnc.net//uploadv2/web/12/12815/news/2021/12/03/02/13/1638506057_tuyen-dung-2021.jpg" alt="TUYỂN DỤNG THÁNG 12/2021" class="img-responsive"> 
+                                          </a> 
+                                       </div>
+                                       <div class="bota_news_list_details col-md-12">
+                                          <h3><a href="news_details.html" title="TUYỂN DỤNG THÁNG 12/2021">TUYỂN DỤNG THÁNG 12/2021</a></h3>
+                                          <time class="bota_create_time"><i class="fa fa-calendar-o"></i> Ngày đăng : 11:34:25 03-12-2021</time>
+                                         
+                                          <div class="bota_news_list_readmore">
+                                             <a href="news_details.html">Đọc thêm...</a>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="bota_news_list_item col-md-3 col-sm-4 col-12 ">
+                                       <div class="bota_news_list_img col-md-12"> 
+                                          <a href="news_details.html" class="thumbnail_img" title="Thông báo thay đổi nhân sự"> 
+                                          <img src="https://cdn-img-v2.webbnc.net//0" alt="Thông báo thay đổi nhân sự" class="img-responsive"> 
+                                          </a> 
+                                       </div>
+                                       <div class="bota_news_list_details col-md-12">
+                                          <h3><a href="news_details.html" title="Thông báo thay đổi nhân sự">Thông báo thay đổi nhân sự</a></h3>
+                                          <time class="bota_create_time"><i class="fa fa-calendar-o"></i> Ngày đăng : 08:42:26 28-05-2021</time>
+                                          <div class="bota_news_list_readmore">
+                                             <a href="news_details.html">Đọc thêm...</a>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="bota_news_list_item col-md-3 col-sm-4 col-12 ">
+                                       <div class="bota_news_list_img col-md-12"> 
+                                          <a href="news_details.html" class="thumbnail_img" title="HƯỚNG DẪN SỬ DỤNG VÀ CHỌN MUA GIÀY BẢO HỘ LAO ĐỘNG"> 
+                                          <img src="https://cdn-img-v2.webbnc.net//uploadv2/web/12/12815/news/2020/11/17/10/16/1605578077_viber_image_2020-11-16_17-00-52.jpg" alt="HƯỚNG DẪN SỬ DỤNG VÀ CHỌN MUA GIÀY BẢO HỘ LAO ĐỘNG" class="img-responsive"> 
+                                          </a> 
+                                       </div>
+                                       <div class="bota_news_list_details col-md-12">
+                                          <h3><a href="news_details.html" title="HƯỚNG DẪN SỬ DỤNG VÀ CHỌN MUA GIÀY BẢO HỘ LAO ĐỘNG">HƯỚNG DẪN SỬ DỤNG VÀ CHỌN MUA GIÀY BẢO HỘ LAO ĐỘNG</a></h3>
+                                          <time class="bota_create_time"><i class="fa fa-calendar-o"></i> Ngày đăng : 08:54:38 17-11-2020</time>
+                                          <div class="bota_news_list_readmore">
+                                             <a href="news_details.html">Đọc thêm...</a>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="bota_news_list_item col-md-3 col-sm-4 col-12 ">
+                                       <div class="bota_news_list_img col-md-12"> 
+                                          <a href="news_details.html" class="thumbnail_img" title="SAFEVIET-CHUNG TAY HƯỚNG VỀ MIỀN TRUNG TRƯỚC ĐỢT BÃO LŨ LỊCH SỬ"> 
+                                          <img src="https://cdn-img-v2.webbnc.net//uploadv2/web/12/12815/news/2020/11/11/01/08/1605070364_hue_aqhb_vsww.jpeg" alt="SAFEVIET-CHUNG TAY HƯỚNG VỀ MIỀN TRUNG TRƯỚC ĐỢT BÃO LŨ LỊCH SỬ" class="img-responsive"> 
+                                          </a> 
+                                       </div>
+                                       <div class="bota_news_list_details col-md-12">
+                                          <h3><a href="news_details.html" title="SAFEVIET-CHUNG TAY HƯỚNG VỀ MIỀN TRUNG TRƯỚC ĐỢT BÃO LŨ LỊCH SỬ">SAFEVIET-CHUNG TAY HƯỚNG VỀ MIỀN TRUNG TRƯỚC ĐỢT BÃO LŨ LỊCH SỬ</a></h3>
+                                          <time class="bota_create_time"><i class="fa fa-calendar-o"></i> Ngày đăng : 11:52:44 11-11-2020</time>
+                                          <div class="bota_news_list_readmore">
+                                             <a href="news_details.html">Đọc thêm...</a>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="bota_news_list_item col-md-3 col-sm-4 col-12 ">
+                                       <div class="bota_news_list_img col-md-12"> 
+                                          <a href="news_details.html" class="thumbnail_img" title="TRẬN GIAO LƯU BÓNG ĐÁ CỦA CBCNV SAFEVIET"> 
+                                          <img src="https://cdn-img-v2.webbnc.net//uploadv2/web/12/12815/news/2020/11/10/10/56/1604976104_z2165819246230_2f0b4340f58ab88b6feb4f96a934dfff.jp.jpg" alt="TRẬN GIAO LƯU BÓNG ĐÁ CỦA CBCNV SAFEVIET" class="img-responsive"> 
+                                          </a> 
+                                       </div>
+                                       <div class="bota_news_list_details col-md-12">
+                                          <h3><a href="news_details.html" title="TRẬN GIAO LƯU BÓNG ĐÁ CỦA CBCNV SAFEVIET">TRẬN GIAO LƯU BÓNG ĐÁ CỦA CBCNV SAFEVIET</a></h3>
+                                          <time class="bota_create_time"><i class="fa fa-calendar-o"></i> Ngày đăng : 09:41:45 10-11-2020</time>
+                                          <div class="bota_news_list_readmore">
+                                             <a href="news_details.html">Đọc thêm...</a>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="bota_news_list_item col-md-3 col-sm-4 col-12 ">
+                                       <div class="bota_news_list_img col-md-12"> 
+                                          <a href="news_details.html" class="thumbnail_img" title="CHÚC MỪNG SINH NHẬT MRS.KHAI - TRƯỞNG PHÒNG KẾ HOẠCH"> 
+                                          <img src="https://cdn-img-v2.webbnc.net//uploadv2/web/12/12815/news/2020/11/07/09/45/1604712824_z2162022531308_04e4c466aa14e4827a137d796f6cdcab.jp.jpg" alt="CHÚC MỪNG SINH NHẬT MRS.KHAI - TRƯỞNG PHÒNG KẾ HOẠCH" class="img-responsive"> 
+                                          </a> 
+                                       </div>
+                                       <div class="bota_news_list_details col-md-12">
+                                          <h3><a href="news_details.html" title="CHÚC MỪNG SINH NHẬT MRS.KHAI - TRƯỞNG PHÒNG KẾ HOẠCH">CHÚC MỪNG SINH NHẬT MRS.KHAI - TRƯỞNG PHÒNG KẾ HOẠCH</a></h3>
+                                          <time class="bota_create_time"><i class="fa fa-calendar-o"></i> Ngày đăng : 08:33:45 07-11-2020</time>
+                                         
+                                          <div class="bota_news_list_readmore">
+                                             <a href="news_details.html">Đọc thêm...</a>
+                                          </div>
+                                       </div>
+                                    </li>
+                                 </div>
+                              </ul>
+                           </article>
+                           <div class="clearfix"></div>
+                           <div class="bota_pagination">
+                              <div class="row">
+                                 <div class="col-md-6">
+                                    <p class="bota_pagination_title"> Hiển thị từ                <strong>1  </strong> đến                <strong>6    </strong> trên                <strong>37  </strong> bản ghi - Trang số                <strong>1   </strong> trên                <strong>7  </strong> trang            </p>
+                                 </div>
+                                 <div class="bota_pagination_button text-right col-md-6">
+                                    <ul class="pagination">
+                                       <li class="disabled"><a> ← </a></li>
+                                       <li class="disabled"> <a>Trước</a> </li>
+                                       <li class="active"><a>1</a></li>
+                                       <li><a href="/tin-tuc-2-2-50329-p2.html">2</a></li>
+                                       <li><a href="/tin-tuc-2-2-50329-p3.html">3</a></li>
+                                       <li><a href="/tin-tuc-2-2-50329-p4.html">4</a></li>
+                                       <li><a href="/tin-tuc-2-2-50329-p5.html">5</a></li>
+                                       <li><a href="/tin-tuc-2-2-50329-p2.html"> Sau </a> </li>
+                                       <li><a href="/tin-tuc-2-2-50329-p2.html">→</a></li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="clearfix"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+        <!--Footer-->
+        <footer class="bota_footer clearfix">
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bota_footer_left">
+                    <h4 class="bota_footer_title">Thông tin liên hệ</h4>
+                    <!-- Info Company -->
+                    <div class="bota_footer_info_company">
+                        <div class="bota_footer_info_company"><span style="color:rgb(255, 255, 255);"><span style="font-size:16px;"><strong>CÔNG TY CP KHKT BẢO HỘ LAO ĐỘNG VIỆT NAM</strong></span><br  />
+                        <span style="font-size:16px;">►Giấy CNĐKKD: 0102632329 do Sở KH & ĐT TP. Hà Nội cấp<br  />
+                        ►Điện thoại: 0243.641.9962<br  />
+                        ►Hotline: 0913.740.466<br  />
+                        ►Email: vietnam@safeviet.com<br  />
+                        ►Website: Safeviet.com</span></span><br  />
+                        </div>
+                    </div>
+                    <!-- End Info Company -->
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 full-xs bota_footer_right_top">
+                    <h4 class="bota_footer_title">Chính sách</h4>
+                    <ul class="bota_footer_links">
+                        <li>
+                        <a href="#" >Chính sách mua hàng</a>
+                        </li>
+                        <li>
+                        <a href="#" >Chính sách đổi trả hàng</a>
+                        </li>
+                        <li>
+                        <a href="#" >Vận chuyển</a>
+                        </li>
+                        <li>
+                        <a href="#" >Chính sách bảo mật</a>
+                        </li>
+                    </ul>
+                    <style></style>
+                    <!-- Histats.com  (div with counter) -->
+                    <div id="histats_counter"></div>
+                    <!-- Histats.com  START  (aync)-->
+                    <script type="text/javascript">var _Hasync= _Hasync|| [];
+                        _Hasync.push(['Histats.start', '1,4321992,4,408,270,55,00011111']);
+                        _Hasync.push(['Histats.fasi', '1']);
+                        _Hasync.push(['Histats.track_hits', '']);
+                        (function() {
+                        var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+                        hs.src = ('//s10.histats.com/js15_as.js');
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+                        })();
+                    </script>
+                    <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4321992&101" alt="" border="0"></a></noscript>
+                    <!-- Histats.com  END  -->
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bota_footer_left">
+                    <h4 class="bota_footer_title">FANPAGE</h4>
+                    <!-- Info Company -->
+                    <div class="bota_footer_info_company">
+                        <iframe allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen="true" frameborder="0" height="250" scrolling="no" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSAFEVIET-1087574838034619&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" style="border:none;overflow:hidden" width="340"></iframe>            
+                    </div>
+                    <!-- End Info Company -->
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bota_footer_left">
+                    <h4 class="bota_footer_title">Bản đồ</h4>
+                    <!-- Info Company -->
+                    <div class="bota_footer_info_company">
+                        <iframe allowfullscreen="" aria-hidden="false" frameborder="0" height="250" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1316.6332828367376!2d105.91845682617918!3d21.032634365321677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9538fc4b663%3A0x2437454f43f8a1e6!2sSAFEVIET%20TRUNG%20T%C3%82M!5e0!3m2!1svi!2sus!4v1599532536650!5m2!1svi!2sus" style="border:0;" tabindex="0" width="250"></iframe>            
+                    </div>
+                    <!-- End Info Company -->
+                </div>
+            </div>
+            </div>
+            <div class='copyright' style='text-align: center;'>Thiết kế bởi <a style='display:inline-block;text-transform: unset !important;' rel='nofollow' href='https://bota.vn' target='_blank'>Bota</a></div>
+            </div>
+            </div>
+        </footer>
+        <!--End Footer-->
+        <ul class="me">
+            <li class="zalo_v2"><a title="0913740466" href="https://zalo.me/0913740466" target="_blank"></a></li>
+            <li class="facebook_v2"><a href="https://m.me/683397982118775" target="_blank"></a></li>
+        </ul>
+        <!-- Scroll To Top -->
+        <div class="bota_scrolltop">
+            <a class="bota_icon_scrolltop" title="Lên đầu trang !">
+            <i class="fa fa-angle-double-up fa-2x"></i>
+            </a>
+        </div>
+        <!-- End Scroll To Top -->
+         <script src="statics/plugins/bootstrap/js/bootstrap.min.js"></script> 
+        <script type="text/javascript" src="statics/scripts/webcommon.js"></script>
+        <script type="text/javascript" src="statics/scripts/jquery.validationEngine.js"></script>
+        <script type="text/javascript" src="statics/scripts/jquery.validationEngine-vi.js"></script>
+        <script type="text/javascript" src="statics/plugins/loading-overlay/loading-overlay.min.js"></script>
+        <script type="text/javascript" src="statics/plugins/loading-overlay/load.js"></script>
+        <script type="text/javascript" src="statics/scripts/fastCart/fastCart.js"></script>
+        <link rel="stylesheet" href="statics/plugins/fancybox/jquery.fancybox.css" /> 
+        <script src="statics/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <script type="text/javascript" src="statics/plugins/elevatezoom/jquery.elevatezoom.js"></script>
+        <script type="text/javascript" src="statics/plugins/pjax/jquery.cookie.js"></script>
+        <script type="text/javascript" src="statics/scripts/search.js"></script>
+        <!-- Camera SlideShow -->
+        <script type='text/javascript' src="statics/plugins/camera-slideshow/jquery.easing.1.3.js"></script> 
+        <script type='text/javascript' src="statics/plugins/camera-slideshow/camera.min.js"></script>
+        <!-- End Camera SlideShow -->
+    </body>
+</html>
