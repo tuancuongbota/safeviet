@@ -227,7 +227,378 @@
                </div>
             </div>
          </header>
-          
+         <!-- Breadcrumbs -->
+         <div class="clearfix"></div>
+         <div class="v2_breadcrumb_main">
+            <div class="container">
+               <h1>SẢN PHẨM</h1>
+               <ul class="breadcrumb">
+                  <li><a href="index.html">Trang chủ</a></li>
+                  <li><a href="product.html">SẢN PHẨM</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- End Breadcrumbs -->  
+         <div class="bota_products_page">
+            <div class="container">
+               <div class="bota_cate_page margin-top-10">
+                  <ul class="bota_cate_page_list row">
+                     <li class="col-md-4 col-sm-6 col-xs-6 full-xs">
+                        <h2><a href="product.html" title="Thiết bị cảnh báo an toàn">Thiết bị cảnh báo an toàn</a></h2>
+                     </li>
+                     <li class="col-md-4 col-sm-6 col-xs-6 full-xs">
+                        <h2><a href="product.html" title="Thiết bị làm việc trên cao">Thiết bị làm việc trên cao</a></h2>
+                     </li>
+                     <li class="col-md-4 col-sm-6 col-xs-6 full-xs">
+                        <h2><a href="product.html" title="Thiết bị phòng cháy - chữa cháy">Thiết bị phòng cháy - chữa cháy</a></h2>
+                     </li>
+                     <li class="col-md-4 col-sm-6 col-xs-6 full-xs">
+                        <h2><a href="product.html" title="Thiết bị bảo vệ đôi chân">Thiết bị bảo vệ đôi chân</a></h2>
+                     </li>
+                     <li class="col-md-4 col-sm-6 col-xs-6 full-xs">
+                        <h2><a href="product.html" title="Thiết bị bảo vệ đôi tay">Thiết bị bảo vệ đôi tay</a></h2>
+                     </li>
+                     <li class="col-md-4 col-sm-6 col-xs-6 full-xs">
+                        <h2><a href="product.html" title="Trang thiết bị bảo vệ đầu">Trang thiết bị bảo vệ đầu</a></h2>
+                     </li>
+                     <li class="col-md-4 col-sm-6 col-xs-6 full-xs">
+                        <h2><a href="product.html" title="Trang phục bảo hộ - đồng phục - áo sự kiện">Trang phục bảo hộ - đồng phục - áo sự kiện</a></h2>
+                     </li>
+                     <li class="col-md-4 col-sm-6 col-xs-6 full-xs">
+                        <h2><a href="product.html" title="Thiết bị khác">Thiết bị khác</a></h2>
+                     </li>
+                  </ul>
+                  <div class="clearfix"></div>
+               </div>
+                <div class="bota_select_category_products_page">
+                  <div class="row">
+                     <div class="col-md-3 col-sm-6 col-xs-6 full-xs">
+                        <select name="sort_filter" id="sort_filter" class="form-control">
+                           <option value="last" selected="">Sản phẩm mới nhất</option>
+                           <option value="manual_sort_desc">Tùy chọn từ cao tới thấp</option>
+                           <option value="manual_sort_asc">Tùy chọn từ thấp tới cao</option>
+                           <option value="early">Sản phẩm cũ nhất</option>
+                           <option value="best_selling">Sản phẩm bán chạy</option>
+                           <option value="view">Sản phẩm xem nhiều</option>
+                           <option value="hot">Sản phẩm nổi bật</option>
+                           <option value="hight_to_low">Giá từ cao đến thấp</option>
+                           <option value="low_to_hight">Giá từ thấp đến cao</option>
+                           <option value="more_to_less">Khuyến mãi từ ít đến nhiều</option>
+                           <option value="less_to_more">Khuyến mãi từ nhiều đến ít</option>
+                           <option value="a_z">Sắp xếp theo tên từ A - Z</option>
+                           <option value="z_a">Sắp xếp theo tên từ Z - A</option>
+                        </select>
+                     </div>
+                     <div class="col-md-3 col-sm-6 col-xs-6 full-xs">
+                        <select name="limit_filter" id="limit_filter" class="form-control">
+                           <option value="12" selected="">12 sản phẩm mỗi trang</option>
+                           <option value="15">15 sản phẩm mỗi trang</option>
+                           <option value="20">20 sản phẩm mỗi trang</option>
+                           <option value="40">40 sản phẩm mỗi trang</option>
+                           <option value="60">60 sản phẩm mỗi trang</option>
+                           <option value="80">80 sản phẩm mỗi trang</option>
+                           <option value="100">100 sản phẩm mỗi trang</option>
+                           <option value="120">120 sản phẩm mỗi trang</option>
+                           <option value="140">140 sản phẩm mỗi trang</option>
+                        </select>
+                     </div>
+                     <div class="col-md-3 col-sm-6 col-xs-6 full-xs">
+                        <form id="product-search" action="product.html" method="get">
+                           <input type="text" value="" name="title" placeholder="Tiêu đề..." class="form-control form-filter BNC_txt_search">
+                        </form>
+                     </div>
+                     <div class="col-md-1 col-sm-3 col-xs-3"><button class="BNC-search-product btn btn-danger">Tìm kiếm</button></div>
+                     <div class="col-md-2 col-sm-3 col-xs-3">
+                        <div class="bota_icon_filter">
+                           <p class="btn btn-primary">Lọc <i class="fa fa-filter" aria-hidden="true"></i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="bota_products_page_body">
+                  <div class="row margin-top-20">
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="bota_title_page">
+                           <h2 class="no-top-space">Sản Phẩm</h2>
+                        </div>
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="bota_products_chooseview"><a href="javascript:void()" id="grid" class="active" title="Dạng danh sách"><i class="fa fa-th-large fa" aria-hidden="true"></i></a><a href="javascript:void()" id="list" title="Dạng list"><i class="fa fa-th-list" aria-hidden="true"></i></a></div>
+                     </div>
+                  </div>
+                  <div class="bota_products_filter_page">
+                     <section class="filter">
+                        <div class="category_filter"></div>
+                        <div class="col-md-2 col-sm-6 col-xs-12">
+                           <h2 class="v2-filterpr-show">Nhà cung cấp</h2>
+                           <ul id="search-supplier" class="searchsupplier">
+                              <li><input type="checkbox" value="20119"> <span>CÔNG TY CP KHKT BẢO HỘ LAO ĐỘNG VIỆT NAM</span></li>
+                           </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12 slider-price">
+                           <h2 class="v2-filterpr-show">Khoảng giá</h2>
+                           <div id="BNC-slider-price" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
+                              <div class="noUi-base">
+                                 <div class="noUi-origin noUi-connect noUi-dragable" style="left: 0%;">
+                                    <div class="noUi-handle noUi-handle-lower">
+                                       <div class="tooltip"><span>2.000 (VND)</span><input id="BNC_gia_tu" type="hidden" value="2.000 (VND)"></div>
+                                    </div>
+                                 </div>
+                                 <div class="noUi-origin noUi-background" style="left: 37.5%;">
+                                    <div class="noUi-handle noUi-handle-upper">
+                                       <div class="tooltip"><span>5.000 (VND)</span><input id="BNC_gia_den" type="hidden" value="5.000 (VND)"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12 attr f-color-search">
+                           <h2 class="v2-filterpr-show">Màu sắc</h2>
+                           <ul id="search-color">
+                              <li><a href="javascript:void(0)" title="Đen" data-color="278737"><span style="background:#000000;width: 20px;height: 20px;display: block;margin-right:5px;float:left"></span><span style="color:#000">Đen</span></a></li>
+                              <li><a href="javascript:void(0)" title="Vàng" data-color="278739"><span style="background:#ffbe17;width: 20px;height: 20px;display: block;margin-right:5px;float:left"></span><span style="color:#000">Vàng</span></a></li>
+                              <li><a href="javascript:void(0)" title="Trắng" data-color="278741"><span style="background:#ffffff;width: 20px;height: 20px;display: block;margin-right:5px;float:left"></span><span style="color:#000">Trắng</span></a></li>
+                              <li><a href="javascript:void(0)" title="Cam" data-color="278743"><span style="background:#ff650f;width: 20px;height: 20px;display: block;margin-right:5px;float:left"></span><span style="color:#000">Cam</span></a></li>
+                              <li><a href="javascript:void(0)" title="Xanh" data-color="278745"><span style="background:#0ccf89;width: 20px;height: 20px;display: block;margin-right:5px;float:left"></span><span style="color:#000">Xanh</span></a></li>
+                           </ul>
+                        </div>
+                     </section>
+                  </div>
+                  <style type="text/css">.bota_products_filter_page{ display: none; } .filter { width: 100%; float: left; border: 1px solid #ddd; margin-bottom: 20px; } .v2-filterpr-show { font-size: 18px; } .f-product-custom-filter:hover{ cursor: pointer; }</style>
+                  <div class="tab-content margin-top-10 row">
+                     <ul class="f-product-viewid f-product">
+                        <li class="col-md-3 col-sm-4 col-xs-6 margin-bottom-30">
+                           <div class="bota_pr_item">
+                              <div class="bota_pr_item_code"><span>Mã SP: SV01</span></div>
+                              <figure class="bota_pr_item_img">
+                                 <a href="detail_product.html" title="Mũ Supersafe">
+                                    <img alt="Mũ Supersafe" id="f-pr-image-zoom-id-tab-home-2122864" src="https://cdn-img-v2.webbnc.net/uploadv2/web/12/12815/product/2021/04/14/04/59/1618385942_viber_image_2021-03-02_13-09-01.jpg_resize263x250.jpg" class="BNC-image-add-cart-2122864 img-responsive">
+                                </a>
+                              </figure>
+                              <div class="bota_pr_item_boxdetails">
+                                 <h3 class="bota_pr_item_name"><a href="detail_product.html" title="Mũ Supersafe">Mũ Supersafe</a></h3>
+                                 <div class="bota_pr_item_rate">
+                                    <div id="stars" style="font-size: 16px;color: #FFC107;margin-top: 10px;">
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="bota_pr_item_price_main">
+                                 <p class="bota_pr_item_no_price">Liên hệ</p>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="col-md-3 col-sm-4 col-xs-6 margin-bottom-30">
+                            <div class="bota_pr_item">
+                               <div class="bota_pr_item_code"><span>Mã SP: SV01</span></div>
+                               <figure class="bota_pr_item_img">
+                                  <a href="detail_product.html" title="Mũ Supersafe">
+                                     <img alt="Mũ Supersafe" id="f-pr-image-zoom-id-tab-home-2122864" src="https://cdn-img-v2.webbnc.net/uploadv2/web/12/12815/product/2021/02/27/05/31/1614416306_dragon-2b.jpg_resize263x250.jpg" class="BNC-image-add-cart-2122864 img-responsive">
+                                 </a>
+                               </figure>
+                               <div class="bota_pr_item_boxdetails">
+                                  <h3 class="bota_pr_item_name"><a href="detail_product.html" title="Mũ Supersafe">Mũ Supersafe</a></h3>
+                                  <div class="bota_pr_item_rate">
+                                     <div id="stars" style="font-size: 16px;color: #FFC107;margin-top: 10px;">
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="bota_pr_item_price_main">
+                                  <p class="bota_pr_item_no_price">Liên hệ</p>
+                               </div>
+                            </div>
+                         </li>
+                         <li class="col-md-3 col-sm-4 col-xs-6 margin-bottom-30">
+                            <div class="bota_pr_item">
+                               <div class="bota_pr_item_code"><span>Mã SP: SV01</span></div>
+                               <figure class="bota_pr_item_img">
+                                  <a href="detail_product.html" title="Mũ Supersafe">
+                                     <img alt="Mũ Supersafe" id="f-pr-image-zoom-id-tab-home-2122864" src="https://cdn-img-v2.webbnc.net/uploadv2/web/12/12815/product/2021/02/27/11/35/1614395003_tai-xuong.jpg_resize263x250.jpg" class="BNC-image-add-cart-2122864 img-responsive">
+                                 </a>
+                               </figure>
+                               <div class="bota_pr_item_boxdetails">
+                                  <h3 class="bota_pr_item_name"><a href="detail_product.html" title="Mũ Supersafe">Mũ Supersafe</a></h3>
+                                  <div class="bota_pr_item_rate">
+                                     <div id="stars" style="font-size: 16px;color: #FFC107;margin-top: 10px;">
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="bota_pr_item_price_main">
+                                  <p class="bota_pr_item_no_price">Liên hệ</p>
+                               </div>
+                            </div>
+                         </li>
+                         <li class="col-md-3 col-sm-4 col-xs-6 margin-bottom-30">
+                            <div class="bota_pr_item">
+                               <div class="bota_pr_item_code"><span>Mã SP: SV01</span></div>
+                               <figure class="bota_pr_item_img">
+                                  <a href="detail_product.html" title="Mũ Supersafe">
+                                     <img alt="Mũ Supersafe" id="f-pr-image-zoom-id-tab-home-2122864" src="https://cdn-img-v2.webbnc.net/uploadv2/web/12/12815/product/2021/02/27/11/32/1614394820_ky311b_-1.jpg_resize263x250.jpg" class="BNC-image-add-cart-2122864 img-responsive">
+                                 </a>
+                               </figure>
+                               <div class="bota_pr_item_boxdetails">
+                                  <h3 class="bota_pr_item_name"><a href="detail_product.html" title="Mũ Supersafe">Mũ Supersafe</a></h3>
+                                  <div class="bota_pr_item_rate">
+                                     <div id="stars" style="font-size: 16px;color: #FFC107;margin-top: 10px;">
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="bota_pr_item_price_main">
+                                  <p class="bota_pr_item_no_price">Liên hệ</p>
+                               </div>
+                            </div>
+                         </li>
+                         <li class="col-md-3 col-sm-4 col-xs-6 margin-bottom-30">
+                            <div class="bota_pr_item">
+                               <div class="bota_pr_item_code"><span>Mã SP: SV01</span></div>
+                               <figure class="bota_pr_item_img">
+                                  <a href="detail_product.html" title="Mũ Supersafe">
+                                     <img alt="Mũ Supersafe" id="f-pr-image-zoom-id-tab-home-2122864" src="https://cdn-img-v2.webbnc.net/uploadv2/web/12/12815/product/2021/02/27/11/28/1614394581_ky717.jpg_resize263x250.jpg" class="BNC-image-add-cart-2122864 img-responsive">
+                                 </a>
+                               </figure>
+                               <div class="bota_pr_item_boxdetails">
+                                  <h3 class="bota_pr_item_name"><a href="detail_product.html" title="Mũ Supersafe">Mũ Supersafe</a></h3>
+                                  <div class="bota_pr_item_rate">
+                                     <div id="stars" style="font-size: 16px;color: #FFC107;margin-top: 10px;">
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="bota_pr_item_price_main">
+                                  <p class="bota_pr_item_no_price">Liên hệ</p>
+                               </div>
+                            </div>
+                         </li>
+                         <li class="col-md-3 col-sm-4 col-xs-6 margin-bottom-30">
+                            <div class="bota_pr_item">
+                               <div class="bota_pr_item_code"><span>Mã SP: SV01</span></div>
+                               <figure class="bota_pr_item_img">
+                                  <a href="detail_product.html" title="Mũ Supersafe">
+                                     <img alt="Mũ Supersafe" id="f-pr-image-zoom-id-tab-home-2122864" src="https://cdn-img-v2.webbnc.net/uploadv2/web/12/12815/product/2021/02/27/11/24/1614394332_ky212.jpg_resize263x250.jpg" class="BNC-image-add-cart-2122864 img-responsive">
+                                 </a>
+                               </figure>
+                               <div class="bota_pr_item_boxdetails">
+                                  <h3 class="bota_pr_item_name"><a href="detail_product.html" title="Mũ Supersafe">Mũ Supersafe</a></h3>
+                                  <div class="bota_pr_item_rate">
+                                     <div id="stars" style="font-size: 16px;color: #FFC107;margin-top: 10px;">
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="bota_pr_item_price_main">
+                                  <p class="bota_pr_item_no_price">Liên hệ</p>
+                               </div>
+                            </div>
+                         </li>
+                         <li class="col-md-3 col-sm-4 col-xs-6 margin-bottom-30">
+                            <div class="bota_pr_item">
+                               <div class="bota_pr_item_code"><span>Mã SP: SV01</span></div>
+                               <figure class="bota_pr_item_img">
+                                  <a href="detail_product.html" title="Mũ Supersafe">
+                                     <img alt="Mũ Supersafe" id="f-pr-image-zoom-id-tab-home-2122864" src="https://cdn-img-v2.webbnc.net/uploadv2/web/12/12815/product/2021/02/27/11/20/1614394072_kinh-kings-ky-712-kbh0056.png_resize263x250.jpg" class="BNC-image-add-cart-2122864 img-responsive">
+                                 </a>
+                               </figure>
+                               <div class="bota_pr_item_boxdetails">
+                                  <h3 class="bota_pr_item_name"><a href="detail_product.html" title="Mũ Supersafe">Mũ Supersafe</a></h3>
+                                  <div class="bota_pr_item_rate">
+                                     <div id="stars" style="font-size: 16px;color: #FFC107;margin-top: 10px;">
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="bota_pr_item_price_main">
+                                  <p class="bota_pr_item_no_price">Liên hệ</p>
+                               </div>
+                            </div>
+                         </li>
+                         <li class="col-md-3 col-sm-4 col-xs-6 margin-bottom-30">
+                            <div class="bota_pr_item">
+                               <div class="bota_pr_item_code"><span>Mã SP: SV01</span></div>
+                               <figure class="bota_pr_item_img">
+                                  <a href="detail_product.html" title="Mũ Supersafe">
+                                     <img alt="Mũ Supersafe" id="f-pr-image-zoom-id-tab-home-2122864" src="https://cdn-img-v2.webbnc.net/uploadv2/web/12/12815/product/2021/02/27/11/11/1614393544_knh-bo-h-lao-ng-ky-711.png_resize263x250.jpg" class="BNC-image-add-cart-2122864 img-responsive">
+                                 </a>
+                               </figure>
+                               <div class="bota_pr_item_boxdetails">
+                                  <h3 class="bota_pr_item_name"><a href="detail_product.html" title="Mũ Supersafe">Mũ Supersafe</a></h3>
+                                  <div class="bota_pr_item_rate">
+                                     <div id="stars" style="font-size: 16px;color: #FFC107;margin-top: 10px;">
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                         <i class="fa fa-star-o"></i>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="bota_pr_item_price_main">
+                                  <p class="bota_pr_item_no_price">Liên hệ</p>
+                               </div>
+                            </div>
+                         </li>
+                     </ul>
+                     <div class="bota_pagination">
+                        <div class="col-md-6">
+                           <p class="bota_pagination_title"> Hiển thị từ<strong>1 </strong> đến<strong>12 </strong> trên<strong>183 </strong> bản ghi - Trang số<strong>1 </strong> trên<strong>16 </strong> trang</p>
+                        </div>
+                        <div class="bota_pagination_button text-right col-md-6">
+                           <ul class="pagination">
+                              <li class="disabled"><a> ← </a></li>
+                              <li class="disabled"> <a>Trước</a></li>
+                              <li class="active"><a>1</a></li>
+                              <li><a href="product.html">2</a></li>
+                              <li><a href="product.html">3</a></li>
+                              <li><a href="product.html">4</a></li>
+                              <li><a href="product.html">5</a></li>
+                              <li><a href="product.html"> Sau </a></li>
+                              <li><a href="product.html">→</a></li>
+                           </ul>
+                           <div class="clearfix"></div>
+                        </div>
+                     </div>
+                     <div class="clearfix"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <script>
+            $(document).ready(function(){
+               $("#list").click(function () {
+                  $(".f-product-viewid").attr('class', 'f-product-viewid viewlist');
+               });
+            });
+         </script>
         <!--Footer-->
         <footer class="bota_footer clearfix">
             <div class="container">
